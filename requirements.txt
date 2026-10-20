@@ -1,0 +1,4 @@
+# Starter dependencies for E01 only. Add later stacks when you need them.
+# Record exact installed versions once you have a working experiment.
+numpy
+matplotlib
