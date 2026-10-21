@@ -1,12 +1,13 @@
+<!-- BEGIN GENERATED CURRICULUM -->
 # E12 — Mini AlphaZero self-play
 
-[Exercise row in the spreadsheet](https://docs.google.com/spreadsheets/d/1_eHEWFzFJ7ncNSaKj2OCUYB6H8rWtdbSnBG4BsRaE2I/edit#gid=1325933506&range=A13:K13) · [Repository guide](../../README.md)
+[Exercise row in the spreadsheet](https://docs.google.com/spreadsheets/d/1_eHEWFzFJ7ncNSaKj2OCUYB6H8rWtdbSnBG4BsRaE2I/edit#gid=1325933506&range=A13:K13) · [Repository guide](../../README.md) · [Reading order](../../ROADMAP.md)
 
 **Stage:** Reinforcement learning  
 **Suggested effort:** 4–6 h  
 **Suggested stack:** Python, NumPy; PyTorch optional
 
-This is an unsolved starter workspace. The brief below was copied from the roadmap on 20 October 2026; use the linked spreadsheet for any later revisions and progress status.
+This is an unsolved starter workspace. Its curriculum brief matches roadmap.json and the spreadsheet; keep your progress status in the spreadsheet. Curriculum version: 2026-10-21.
 
 ## Related papers
 
@@ -27,6 +28,7 @@ implement rules, MCTS and self-play; use a tabular value/policy estimate first. 
 notes.md (one search); tictactoe_mcts.py; visit_targets.csv; win_draw_curves.png; optional network.py.
 
 Use [notes.md](notes.md) for explanations and worked mathematics. Save small results in results/ and plots in figures/, or keep the brief's filenames beside your script. Link to handwritten workings if you prefer writing them elsewhere.
+<!-- END GENERATED CURRICULUM -->
 
 ## How to run
 

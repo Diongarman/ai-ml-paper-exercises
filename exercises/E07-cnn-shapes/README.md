@@ -1,12 +1,13 @@
+<!-- BEGIN GENERATED CURRICULUM -->
 # E07 — Trace a CNN
 
-[Exercise row in the spreadsheet](https://docs.google.com/spreadsheets/d/1_eHEWFzFJ7ncNSaKj2OCUYB6H8rWtdbSnBG4BsRaE2I/edit#gid=1325933506&range=A8:K8) · [Repository guide](../../README.md)
+[Exercise row in the spreadsheet](https://docs.google.com/spreadsheets/d/1_eHEWFzFJ7ncNSaKj2OCUYB6H8rWtdbSnBG4BsRaE2I/edit#gid=1325933506&range=A8:K8) · [Repository guide](../../README.md) · [Reading order](../../ROADMAP.md)
 
 **Stage:** Computer vision  
 **Suggested effort:** 2–3 h  
 **Suggested stack:** PyTorch, torchvision, Matplotlib
 
-This is an unsolved starter workspace. The brief below was copied from the roadmap on 20 October 2026; use the linked spreadsheet for any later revisions and progress status.
+This is an unsolved starter workspace. Its curriculum brief matches roadmap.json and the spreadsheet; keep your progress status in the spreadsheet. Curriculum version: 2026-10-21.
 
 ## Related papers
 
@@ -28,6 +29,7 @@ implement a compact LeNet-style model in PyTorch and use hooks or a forward pass
 architecture_notes.md; cnn_shapes.py; layer_shapes.csv; one feature-map figure.
 
 Use [notes.md](notes.md) for explanations and worked mathematics. Save small results in results/ and plots in figures/, or keep the brief's filenames beside your script. Link to handwritten workings if you prefer writing them elsewhere.
+<!-- END GENERATED CURRICULUM -->
 
 ## How to run
 

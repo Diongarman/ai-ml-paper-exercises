@@ -8,7 +8,9 @@ Implementations, worked mathematics, and small experiments that accompany the [r
 - **Repository:** detailed explanations, hand calculations, code or notebooks, figures, and small result files.
 - Open the **Work link** in the spreadsheet's Exercises tab to reach the matching folder. Keep progress status in the spreadsheet.
 
-The folders below are starter workspaces. The exercises have not been solved. Each README contains the initial brief from the spreadsheet, captured on 20 October 2026, and links to its source row and related papers. The live spreadsheet remains the source for planning and any revised briefs; these files do not sync automatically.
+The folders below are unsolved starter workspaces. The [complete reading roadmap](ROADMAP.md) and [shared curriculum data](roadmap.json) mirror the spreadsheet: **85 papers, 35 exercises, 42 broad steps and 8 tracks** (21 October 2026). The update adds REINFORCE, the Word2Vec follow-up, Dropout, GloVe, BatchNorm, LayerNorm, PPO, ELMo, ULMFiT and RoBERTa, and restores P029 to the broad sequence.
+
+Paper and exercise IDs stay fixed. Follow the reading paths for learning order; new IDs are appended in the catalogue. ELMo comes before GPT/BERT; LayerNorm comes before the Transformer; REINFORCE and PPO come before InstructGPT. Each brief links to the matching spreadsheet row. See [how to keep curriculum changes aligned](ROADMAP.md#keeping-the-two-copies-aligned); future changes do not sync automatically.
 
 ## Start with E01
 
@@ -46,6 +48,7 @@ Each exercise begins with README.md (brief and execution record) and notes.md (w
 
 ## Exercise index
 
+<!-- BEGIN GENERATED EXERCISE INDEX -->
 | Exercise | Focus | Stage | Suggested effort |
 | --- | --- | --- | --- |
 | [E01](exercises/E01-perceptron/) | Logic gates and XOR | Neural foundations | 1–2 h |
@@ -76,6 +79,14 @@ Each exercise begins with README.md (brief and execution record) and notes.md (w
 | [E26](exercises/E26-graph-or-audio/) | Graph or audio branch | Other modalities | 2–4 h |
 | [E27](exercises/E27-protein-structures/) | Read protein-model outputs | Scientific AI | 1–2 h |
 | [E28](exercises/E28-abstention/) | When to abstain | AI evaluation | 1–2 h |
+| [E29](exercises/E29-negative-sampling-and-glove/) | Negative sampling versus co-occurrence | Language | 3–5 h |
+| [E30](exercises/E30-dropout/) | Dropout and overfitting | Neural foundations | 2–4 h |
+| [E31](exercises/E31-batch-and-layer-normalization/) | Batch versus layer normalization | Neural foundations | 2–4 h |
+| [E32](exercises/E32-reinforce-and-ppo/) | From REINFORCE to PPO | Reinforcement learning | 3–5 h |
+| [E33](exercises/E33-contextual-embeddings/) | Word2Vec, ELMo and BERT in context | Language | 3–5 h |
+| [E34](exercises/E34-ulmfit-transfer/) | Recurrent language-model transfer | Adaptation | 4–6 h |
+| [E35](exercises/E35-roberta-ablations/) | BERT and RoBERTa training ablations | Language | 3–5 h |
+<!-- END GENERATED EXERCISE INDEX -->
 
 ## Finishing an exercise
 

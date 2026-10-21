@@ -1,12 +1,13 @@
+<!-- BEGIN GENERATED CURRICULUM -->
 # E10 — Belief-network inference
 
-[Exercise row in the spreadsheet](https://docs.google.com/spreadsheets/d/1_eHEWFzFJ7ncNSaKj2OCUYB6H8rWtdbSnBG4BsRaE2I/edit#gid=1325933506&range=A11:K11) · [Repository guide](../../README.md)
+[Exercise row in the spreadsheet](https://docs.google.com/spreadsheets/d/1_eHEWFzFJ7ncNSaKj2OCUYB6H8rWtdbSnBG4BsRaE2I/edit#gid=1325933506&range=A11:K11) · [Repository guide](../../README.md) · [Reading order](../../ROADMAP.md)
 
 **Stage:** Search & probability  
 **Suggested effort:** 1–2 h  
 **Suggested stack:** NumPy, pandas
 
-This is an unsolved starter workspace. The brief below was copied from the roadmap on 20 October 2026; use the linked spreadsheet for any later revisions and progress status.
+This is an unsolved starter workspace. Its curriculum brief matches roadmap.json and the spreadsheet; keep your progress status in the spreadsheet. Curriculum version: 2026-10-21.
 
 ## Related papers
 
@@ -25,6 +26,7 @@ represent conditional-probability tables in NumPy and enumerate joint probabilit
 belief_network.py; cpts.csv; notes.md with graph, posterior calculation, and normalization check.
 
 Use [notes.md](notes.md) for explanations and worked mathematics. Save small results in results/ and plots in figures/, or keep the brief's filenames beside your script. Link to handwritten workings if you prefer writing them elsewhere.
+<!-- END GENERATED CURRICULUM -->
 
 ## How to run
 

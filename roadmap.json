@@ -1,0 +1,2024 @@
+{
+  "schema_version": 1,
+  "curriculum_version": "2026-10-21",
+  "spreadsheet_url": "https://docs.google.com/spreadsheets/d/1_eHEWFzFJ7ncNSaKj2OCUYB6H8rWtdbSnBG4BsRaE2I/edit",
+  "repository_url": "https://github.com/Diongarman/ai-ml-paper-exercises",
+  "sheet_ids": {
+    "Start here": 50372435,
+    "Papers": 784972021,
+    "Exercises": 1325933506
+  },
+  "papers": [
+    {
+      "id": "P001",
+      "year": "1943",
+      "title": "A Logical Calculus of the Ideas Immanent in Nervous Activity",
+      "authors": "McCulloch & Pitts",
+      "track": "Neural foundations",
+      "topic": "Artificial neurons",
+      "tier": "Core",
+      "why": "A simplified neuron can implement logical operations.",
+      "url": "https://doi.org/10.1007/BF02478259",
+      "exercise_ids": [
+        "E01"
+      ]
+    },
+    {
+      "id": "P002",
+      "year": "1950",
+      "title": "Computing Machinery and Intelligence",
+      "authors": "Turing",
+      "track": "Classical ML & search",
+      "topic": "AI framing",
+      "tier": "Explore",
+      "why": "Frames machine intelligence as a testable question.",
+      "url": "https://doi.org/10.1093/mind/LIX.236.433",
+      "exercise_ids": []
+    },
+    {
+      "id": "P003",
+      "year": "1958",
+      "title": "The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain",
+      "authors": "Rosenblatt",
+      "track": "Neural foundations",
+      "topic": "Linear classification",
+      "tier": "Core",
+      "why": "A trainable linear decision boundary; XOR reveals its limit.",
+      "url": "https://doi.org/10.1037/h0042519",
+      "exercise_ids": [
+        "E01"
+      ]
+    },
+    {
+      "id": "P004",
+      "year": "1959",
+      "title": "Some Studies in Machine Learning Using the Game of Checkers",
+      "authors": "Samuel",
+      "track": "Classical ML & search",
+      "topic": "Game learning",
+      "tier": "Explore",
+      "why": "Programs can improve play using experience and evaluation.",
+      "url": "https://doi.org/10.1147/rd.33.0210",
+      "exercise_ids": [
+        "E09"
+      ]
+    },
+    {
+      "id": "P005",
+      "year": "1968",
+      "title": "A Formal Basis for the Heuristic Determination of Minimum Cost Paths",
+      "authors": "Hart, Nilsson & Raphael",
+      "track": "Classical ML & search",
+      "topic": "Heuristic search",
+      "tier": "Core",
+      "why": "A* combines accumulated cost with an admissible heuristic.",
+      "url": "https://ai.stanford.edu/~nilsson/OnlinePubs-Nils/PublishedPapers/astar.pdf",
+      "exercise_ids": [
+        "E09"
+      ]
+    },
+    {
+      "id": "P006",
+      "year": "1977",
+      "title": "Maximum Likelihood from Incomplete Data via the EM Algorithm",
+      "authors": "Dempster, Laird & Rubin",
+      "track": "Classical ML & search",
+      "topic": "Latent variables",
+      "tier": "Core",
+      "why": "Alternate estimating hidden assignments and model parameters.",
+      "url": "https://doi.org/10.1111/j.2517-6161.1977.tb01600.x",
+      "exercise_ids": [
+        "E05"
+      ]
+    },
+    {
+      "id": "P007",
+      "year": "1980",
+      "title": "Neocognitron: A Self-Organizing Neural Network Model for a Mechanism of Pattern Recognition Unaffected by Shift in Position",
+      "authors": "Fukushima",
+      "track": "Computer vision",
+      "topic": "Early convolutional ideas",
+      "tier": "Explore",
+      "why": "Hierarchical local features build tolerance to translation.",
+      "url": "https://doi.org/10.1007/BF00344251",
+      "exercise_ids": []
+    },
+    {
+      "id": "P008",
+      "year": "1986",
+      "title": "Fusion, Propagation, and Structuring in Belief Networks",
+      "authors": "Pearl",
+      "track": "Classical ML & search",
+      "topic": "Probabilistic reasoning",
+      "tier": "Explore",
+      "why": "Structured conditional dependence supports inference with evidence.",
+      "url": "https://www.sciencedirect.com/science/article/pii/000437028690072X",
+      "exercise_ids": [
+        "E10"
+      ]
+    },
+    {
+      "id": "P009",
+      "year": "1986",
+      "title": "Induction of Decision Trees",
+      "authors": "Quinlan",
+      "track": "Classical ML & search",
+      "topic": "Decision trees",
+      "tier": "Core",
+      "why": "Greedy information-based splits make interpretable classifiers.",
+      "url": "https://doi.org/10.1007/BF00116251",
+      "exercise_ids": [
+        "E04"
+      ]
+    },
+    {
+      "id": "P010",
+      "year": "1986",
+      "title": "Learning Representations by Back-Propagating Errors",
+      "authors": "Rumelhart, Hinton & Williams",
+      "track": "Neural foundations",
+      "topic": "Backpropagation",
+      "tier": "Core",
+      "why": "The chain rule efficiently trains layered representations.",
+      "url": "https://doi.org/10.1038/323533a0",
+      "exercise_ids": [
+        "E02",
+        "E30"
+      ]
+    },
+    {
+      "id": "P011",
+      "year": "1988",
+      "title": "Learning to Predict by the Methods of Temporal Differences",
+      "authors": "Sutton",
+      "track": "Reinforcement learning",
+      "topic": "Value learning",
+      "tier": "Core",
+      "why": "Learn predictions from the difference between successive estimates.",
+      "url": "https://doi.org/10.1007/BF00115009",
+      "exercise_ids": [
+        "E11"
+      ]
+    },
+    {
+      "id": "P012",
+      "year": "1989",
+      "title": "Approximation by Superpositions of a Sigmoidal Function",
+      "authors": "Cybenko",
+      "track": "Neural foundations",
+      "topic": "Expressivity",
+      "tier": "Explore",
+      "why": "A wide hidden layer can approximate continuous functions.",
+      "url": "https://doi.org/10.1007/BF02551274",
+      "exercise_ids": [
+        "E02"
+      ]
+    },
+    {
+      "id": "P013",
+      "year": "1989",
+      "title": "Backpropagation Applied to Handwritten Zip Code Recognition",
+      "authors": "LeCun et al.",
+      "track": "Computer vision",
+      "topic": "Handwriting classification",
+      "tier": "Core",
+      "why": "An early convolutional system recognizes real postal digits.",
+      "url": "https://doi.org/10.1162/neco.1989.1.4.541",
+      "exercise_ids": [
+        "E03"
+      ]
+    },
+    {
+      "id": "P014",
+      "year": "1989",
+      "title": "Handwritten Digit Recognition with a Back-Propagation Network",
+      "authors": "LeCun et al.",
+      "track": "Computer vision",
+      "topic": "Handwriting classification",
+      "tier": "Core",
+      "why": "Weight sharing and local receptive fields improve digit recognition.",
+      "url": "https://papers.nips.cc/paper_files/paper/1989/hash/53c3bce66e43be4f209556518c2fcb54-Abstract.html",
+      "exercise_ids": [
+        "E03"
+      ]
+    },
+    {
+      "id": "P015",
+      "year": "1992",
+      "title": "Q-Learning",
+      "authors": "Watkins & Dayan",
+      "track": "Reinforcement learning",
+      "topic": "Control",
+      "tier": "Core",
+      "why": "Learn action values from reward plus the best next estimate.",
+      "url": "https://doi.org/10.1007/BF00992698",
+      "exercise_ids": [
+        "E11"
+      ]
+    },
+    {
+      "id": "P016",
+      "year": "1995",
+      "title": "Support-Vector Networks",
+      "authors": "Cortes & Vapnik",
+      "track": "Classical ML & search",
+      "topic": "Margin classifiers",
+      "tier": "Core",
+      "why": "Max-margin classification offers a strong non-neural baseline.",
+      "url": "https://doi.org/10.1007/BF00994018",
+      "exercise_ids": [
+        "E04"
+      ]
+    },
+    {
+      "id": "P017",
+      "year": "1997",
+      "title": "Long Short-Term Memory",
+      "authors": "Hochreiter & Schmidhuber",
+      "track": "Sequence & attention",
+      "topic": "Recurrent networks",
+      "tier": "Core",
+      "why": "Gates help recurrent nets preserve signals across long sequences.",
+      "url": "https://doi.org/10.1162/neco.1997.9.8.1735",
+      "exercise_ids": [
+        "E15",
+        "E33",
+        "E34"
+      ]
+    },
+    {
+      "id": "P018",
+      "year": "1998",
+      "title": "Gradient-Based Learning Applied to Document Recognition",
+      "authors": "LeCun, Bottou, Bengio & Haffner",
+      "track": "Computer vision",
+      "topic": "Convolutional networks",
+      "tier": "Core",
+      "why": "LeNet connects convolution, subsampling, and end-to-end document recognition.",
+      "url": "https://proceedingsoftheieee.ieee.org/gradient-based-learning-applied-to-document-recognition/",
+      "exercise_ids": [
+        "E03",
+        "E07"
+      ]
+    },
+    {
+      "id": "P019",
+      "year": "2001",
+      "title": "Greedy Function Approximation: A Gradient Boosting Machine",
+      "authors": "Friedman",
+      "track": "Classical ML & search",
+      "topic": "Ensembles",
+      "tier": "Explore",
+      "why": "Fit successive weak learners to reduce a chosen loss.",
+      "url": "https://doi.org/10.1214/aos/1013203451",
+      "exercise_ids": [
+        "E04"
+      ]
+    },
+    {
+      "id": "P020",
+      "year": "2001",
+      "title": "Random Forests",
+      "authors": "Breiman",
+      "track": "Classical ML & search",
+      "topic": "Ensembles",
+      "tier": "Core",
+      "why": "Bagging randomized trees reduces variance.",
+      "url": "https://doi.org/10.1023/A:1010933404324",
+      "exercise_ids": [
+        "E04"
+      ]
+    },
+    {
+      "id": "P021",
+      "year": "2001",
+      "title": "Rapid Object Detection Using a Boosted Cascade of Simple Features",
+      "authors": "Viola & Jones",
+      "track": "Computer vision",
+      "topic": "Detection",
+      "tier": "Explore",
+      "why": "A feature cascade makes face detection practical.",
+      "url": "https://doi.org/10.1109/CVPR.2001.990517",
+      "exercise_ids": [
+        "E08"
+      ]
+    },
+    {
+      "id": "P022",
+      "year": "2003",
+      "title": "A Neural Probabilistic Language Model",
+      "authors": "Bengio et al.",
+      "track": "Language models & alignment",
+      "topic": "Language modeling",
+      "tier": "Core",
+      "why": "Continuous word representations help predict unseen word sequences.",
+      "url": "https://jmlr.csail.mit.edu/papers/v3/bengio03a.html",
+      "exercise_ids": [
+        "E14"
+      ]
+    },
+    {
+      "id": "P023",
+      "year": "2003",
+      "title": "Latent Dirichlet Allocation",
+      "authors": "Blei, Ng & Jordan",
+      "track": "Classical ML & search",
+      "topic": "Topic models",
+      "tier": "Explore",
+      "why": "Documents mix latent topics in a generative probabilistic model.",
+      "url": "https://www.jmlr.org/papers/v3/blei03a.html",
+      "exercise_ids": []
+    },
+    {
+      "id": "P024",
+      "year": "2004",
+      "title": "Distinctive Image Features from Scale-Invariant Keypoints",
+      "authors": "Lowe",
+      "track": "Computer vision",
+      "topic": "Local features",
+      "tier": "Explore",
+      "why": "Scale and rotation-stable descriptors support image matching.",
+      "url": "https://doi.org/10.1023/B:VISI.0000029664.99615.94",
+      "exercise_ids": []
+    },
+    {
+      "id": "P025",
+      "year": "2006",
+      "title": "A Fast Learning Algorithm for Deep Belief Nets",
+      "authors": "Hinton, Osindero & Teh",
+      "track": "Neural foundations",
+      "topic": "Deep learning revival",
+      "tier": "Explore",
+      "why": "Layer-wise pretraining helped make deep nets trainable.",
+      "url": "https://doi.org/10.1162/neco.2006.18.7.1527",
+      "exercise_ids": []
+    },
+    {
+      "id": "P026",
+      "year": "2009",
+      "title": "ImageNet: A Large-Scale Hierarchical Image Database",
+      "authors": "Deng et al.",
+      "track": "Computer vision",
+      "topic": "Datasets & benchmarks",
+      "tier": "Core",
+      "why": "A large labeled image benchmark changed visual recognition.",
+      "url": "https://www.image-net.org/static_files/papers/imagenet_cvpr09.pdf",
+      "exercise_ids": [
+        "E06"
+      ]
+    },
+    {
+      "id": "P027",
+      "year": "2012",
+      "title": "ImageNet Classification with Deep Convolutional Neural Networks",
+      "authors": "Krizhevsky, Sutskever & Hinton",
+      "track": "Computer vision",
+      "topic": "Image classification",
+      "tier": "Core",
+      "why": "Large CNNs trained on GPUs transformed ImageNet performance.",
+      "url": "https://papers.nips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html",
+      "exercise_ids": [
+        "E07"
+      ]
+    },
+    {
+      "id": "P028",
+      "year": "2013",
+      "title": "Auto-Encoding Variational Bayes",
+      "authors": "Kingma & Welling",
+      "track": "Generative & multimodal",
+      "topic": "Latent generative models",
+      "tier": "Core",
+      "why": "Optimize a tractable bound for a latent-variable generator.",
+      "url": "https://arxiv.org/abs/1312.6114",
+      "exercise_ids": [
+        "E18"
+      ]
+    },
+    {
+      "id": "P029",
+      "year": "2013",
+      "title": "Efficient Estimation of Word Representations in Vector Space",
+      "authors": "Mikolov et al.",
+      "track": "Language models & alignment",
+      "topic": "Embeddings",
+      "tier": "Core",
+      "why": "Predictive training produces useful word vectors.",
+      "url": "https://arxiv.org/abs/1301.3781",
+      "exercise_ids": [
+        "E14",
+        "E29",
+        "E33"
+      ]
+    },
+    {
+      "id": "P030",
+      "year": "2014",
+      "title": "Adam: A Method for Stochastic Optimization",
+      "authors": "Kingma & Ba",
+      "track": "Neural foundations",
+      "topic": "Optimisation",
+      "tier": "Explore",
+      "why": "Adaptive first and second moments tune parameter updates.",
+      "url": "https://arxiv.org/abs/1412.6980",
+      "exercise_ids": [
+        "E02"
+      ]
+    },
+    {
+      "id": "P031",
+      "year": "2014",
+      "title": "Generative Adversarial Nets",
+      "authors": "Goodfellow et al.",
+      "track": "Generative & multimodal",
+      "topic": "Adversarial training",
+      "tier": "Core",
+      "why": "A generator and discriminator learn through a two-player objective.",
+      "url": "https://arxiv.org/abs/1406.2661",
+      "exercise_ids": [
+        "E18"
+      ]
+    },
+    {
+      "id": "P032",
+      "year": "2014",
+      "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+      "authors": "Bahdanau, Cho & Bengio",
+      "track": "Sequence & attention",
+      "topic": "Attention",
+      "tier": "Core",
+      "why": "The decoder selects relevant source positions at each step.",
+      "url": "https://arxiv.org/abs/1409.0473",
+      "exercise_ids": [
+        "E15"
+      ]
+    },
+    {
+      "id": "P033",
+      "year": "2014",
+      "title": "Sequence to Sequence Learning with Neural Networks",
+      "authors": "Sutskever, Vinyals & Le",
+      "track": "Sequence & attention",
+      "topic": "Encoder–decoder",
+      "tier": "Core",
+      "why": "An encoder and decoder map one sequence into another.",
+      "url": "https://arxiv.org/abs/1409.3215",
+      "exercise_ids": [
+        "E15"
+      ]
+    },
+    {
+      "id": "P034",
+      "year": "2014",
+      "title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+      "authors": "Simonyan & Zisserman",
+      "track": "Computer vision",
+      "topic": "Image classification",
+      "tier": "Explore",
+      "why": "Repeated small convolutions make deeper image classifiers.",
+      "url": "https://arxiv.org/abs/1409.1556",
+      "exercise_ids": [
+        "E07"
+      ]
+    },
+    {
+      "id": "P035",
+      "year": "2015",
+      "title": "Deep Residual Learning for Image Recognition",
+      "authors": "He et al.",
+      "track": "Computer vision",
+      "topic": "Image classification",
+      "tier": "Core",
+      "why": "Skip connections ease optimization of deep CNNs.",
+      "url": "https://arxiv.org/abs/1512.03385",
+      "exercise_ids": [
+        "E07",
+        "E31"
+      ]
+    },
+    {
+      "id": "P036",
+      "year": "2015",
+      "title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+      "authors": "Ren et al.",
+      "track": "Computer vision",
+      "topic": "Detection",
+      "tier": "Explore",
+      "why": "A learned region proposal stage integrates with a detector.",
+      "url": "https://arxiv.org/abs/1506.01497",
+      "exercise_ids": [
+        "E08"
+      ]
+    },
+    {
+      "id": "P037",
+      "year": "2015",
+      "title": "Human-Level Control Through Deep Reinforcement Learning",
+      "authors": "Mnih et al.",
+      "track": "Reinforcement learning",
+      "topic": "Deep value learning",
+      "tier": "Core",
+      "why": "A neural Q-function, replay, and target network learn Atari control.",
+      "url": "https://www.nature.com/articles/nature14236",
+      "exercise_ids": [
+        "E11"
+      ]
+    },
+    {
+      "id": "P038",
+      "year": "2015",
+      "title": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+      "authors": "Ronneberger, Fischer & Brox",
+      "track": "Computer vision",
+      "topic": "Segmentation",
+      "tier": "Core",
+      "why": "An encoder–decoder with skip connections predicts pixel masks.",
+      "url": "https://arxiv.org/abs/1505.04597",
+      "exercise_ids": [
+        "E08"
+      ]
+    },
+    {
+      "id": "P039",
+      "year": "2016",
+      "title": "Mastering the Game of Go with Deep Neural Networks and Tree Search",
+      "authors": "Silver et al.",
+      "track": "Reinforcement learning",
+      "topic": "Search & self-play",
+      "tier": "Core",
+      "why": "Policy/value nets plus tree search defeat expert Go players.",
+      "url": "https://doi.org/10.1038/nature16961",
+      "exercise_ids": [
+        "E12"
+      ]
+    },
+    {
+      "id": "P040",
+      "year": "2016",
+      "title": "Semi-Supervised Classification with Graph Convolutional Networks",
+      "authors": "Kipf & Welling",
+      "track": "Graphs, audio & science",
+      "topic": "Graph learning",
+      "tier": "Explore",
+      "why": "Neighborhood aggregation learns node representations.",
+      "url": "https://arxiv.org/abs/1609.02907",
+      "exercise_ids": [
+        "E26"
+      ]
+    },
+    {
+      "id": "P041",
+      "year": "2016",
+      "title": "WaveNet: A Generative Model for Raw Audio",
+      "authors": "van den Oord et al.",
+      "track": "Graphs, audio & science",
+      "topic": "Audio generation",
+      "tier": "Explore",
+      "why": "Dilated causal convolutions model raw audio samples.",
+      "url": "https://arxiv.org/abs/1609.03499",
+      "exercise_ids": [
+        "E26"
+      ]
+    },
+    {
+      "id": "P042",
+      "year": "2016",
+      "title": "XGBoost: A Scalable Tree Boosting System",
+      "authors": "Chen & Guestrin",
+      "track": "Classical ML & search",
+      "topic": "Ensembles",
+      "tier": "Explore",
+      "why": "Regularized, efficient boosting is a strong tabular baseline.",
+      "url": "https://arxiv.org/abs/1603.02754",
+      "exercise_ids": [
+        "E04"
+      ]
+    },
+    {
+      "id": "P043",
+      "year": "2017",
+      "title": "Attention Is All You Need",
+      "authors": "Vaswani et al.",
+      "track": "Sequence & attention",
+      "topic": "Transformers",
+      "tier": "Core",
+      "why": "Self-attention replaces recurrent sequence processing.",
+      "url": "https://arxiv.org/abs/1706.03762",
+      "exercise_ids": [
+        "E16",
+        "E31"
+      ]
+    },
+    {
+      "id": "P044",
+      "year": "2017",
+      "title": "Mask R-CNN",
+      "authors": "He, Gkioxari, Dollár & Girshick",
+      "track": "Computer vision",
+      "topic": "Instance segmentation",
+      "tier": "Explore",
+      "why": "A detector gains a per-instance mask prediction branch.",
+      "url": "https://openaccess.thecvf.com/content_iccv_2017/html/He_Mask_R-CNN_ICCV_2017_paper.html",
+      "exercise_ids": [
+        "E08"
+      ]
+    },
+    {
+      "id": "P045",
+      "year": "2017",
+      "title": "Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm",
+      "authors": "Silver et al.",
+      "track": "Reinforcement learning",
+      "topic": "General game playing",
+      "tier": "Core",
+      "why": "A shared self-play algorithm extends to chess, shogi, and Go.",
+      "url": "https://arxiv.org/abs/1712.01815",
+      "exercise_ids": [
+        "E12",
+        "E13"
+      ]
+    },
+    {
+      "id": "P046",
+      "year": "2017",
+      "title": "Mastering the Game of Go Without Human Knowledge",
+      "authors": "Silver et al.",
+      "track": "Reinforcement learning",
+      "topic": "Self-play",
+      "tier": "Core",
+      "why": "Self-play and MCTS learn Go from the rules alone.",
+      "url": "https://doi.org/10.1038/nature24270",
+      "exercise_ids": [
+        "E12"
+      ]
+    },
+    {
+      "id": "P047",
+      "year": "2017",
+      "title": "Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer",
+      "authors": "Shazeer et al.",
+      "track": "Language models & alignment",
+      "topic": "Sparse computation",
+      "tier": "Explore",
+      "why": "A router activates only a few experts for each input.",
+      "url": "https://arxiv.org/abs/1701.06538",
+      "exercise_ids": []
+    },
+    {
+      "id": "P048",
+      "year": "2018",
+      "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+      "authors": "Devlin et al.",
+      "track": "Language models & alignment",
+      "topic": "Masked pretraining",
+      "tier": "Core",
+      "why": "Masked-token learning builds bidirectional representations.",
+      "url": "https://arxiv.org/abs/1810.04805",
+      "exercise_ids": [
+        "E16",
+        "E17",
+        "E33",
+        "E35"
+      ]
+    },
+    {
+      "id": "P049",
+      "year": "2018",
+      "title": "Improving Language Understanding by Generative Pre-Training",
+      "authors": "Radford et al.",
+      "track": "Language models & alignment",
+      "topic": "Autoregressive pretraining",
+      "tier": "Core",
+      "why": "Pretrain left-to-right, then adapt to downstream language tasks.",
+      "url": "https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf",
+      "exercise_ids": [
+        "E16",
+        "E17"
+      ]
+    },
+    {
+      "id": "P050",
+      "year": "2019",
+      "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+      "authors": "Raffel et al.",
+      "track": "Language models & alignment",
+      "topic": "Text-to-text",
+      "tier": "Explore",
+      "why": "Cast diverse language tasks into a shared text-to-text format.",
+      "url": "https://arxiv.org/abs/1910.10683",
+      "exercise_ids": [
+        "E17"
+      ]
+    },
+    {
+      "id": "P051",
+      "year": "2019",
+      "title": "Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model",
+      "authors": "Schrittwieser et al.",
+      "track": "Reinforcement learning",
+      "topic": "Model-based planning",
+      "tier": "Explore",
+      "why": "Plan with a learned latent dynamics model without known rules.",
+      "url": "https://arxiv.org/abs/1911.08265",
+      "exercise_ids": [
+        "E13"
+      ]
+    },
+    {
+      "id": "P052",
+      "year": "2020",
+      "title": "A Simple Framework for Contrastive Learning of Visual Representations",
+      "authors": "Chen et al.",
+      "track": "Computer vision",
+      "topic": "Self-supervised vision",
+      "tier": "Explore",
+      "why": "Augmented views of an image train transferable features.",
+      "url": "https://proceedings.mlr.press/v119/chen20j.html",
+      "exercise_ids": [
+        "E19"
+      ]
+    },
+    {
+      "id": "P053",
+      "year": "2020",
+      "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+      "authors": "Dosovitskiy et al.",
+      "track": "Computer vision",
+      "topic": "Vision transformers",
+      "tier": "Core",
+      "why": "Image patches become tokens for a transformer classifier.",
+      "url": "https://arxiv.org/abs/2010.11929",
+      "exercise_ids": [
+        "E19",
+        "E20"
+      ]
+    },
+    {
+      "id": "P054",
+      "year": "2020",
+      "title": "Denoising Diffusion Probabilistic Models",
+      "authors": "Ho, Jain & Abbeel",
+      "track": "Generative & multimodal",
+      "topic": "Diffusion",
+      "tier": "Core",
+      "why": "A model learns to reverse gradual noise addition.",
+      "url": "https://arxiv.org/abs/2006.11239",
+      "exercise_ids": [
+        "E18"
+      ]
+    },
+    {
+      "id": "P055",
+      "year": "2020",
+      "title": "Language Models are Few-Shot Learners",
+      "authors": "Brown et al.",
+      "track": "Language models & alignment",
+      "topic": "In-context learning",
+      "tier": "Core",
+      "why": "Large autoregressive models can follow examples in a prompt.",
+      "url": "https://arxiv.org/abs/2005.14165",
+      "exercise_ids": [
+        "E21"
+      ]
+    },
+    {
+      "id": "P056",
+      "year": "2020",
+      "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+      "authors": "Lewis et al.",
+      "track": "Language models & alignment",
+      "topic": "Retrieval",
+      "tier": "Explore",
+      "why": "An external document index can supply evidence to generation.",
+      "url": "https://arxiv.org/abs/2005.11401",
+      "exercise_ids": [
+        "E24"
+      ]
+    },
+    {
+      "id": "P057",
+      "year": "2020",
+      "title": "Scaling Laws for Neural Language Models",
+      "authors": "Kaplan et al.",
+      "track": "Language models & alignment",
+      "topic": "Scaling",
+      "tier": "Core",
+      "why": "Loss varies predictably with model size, data, and compute.",
+      "url": "https://arxiv.org/abs/2001.08361",
+      "exercise_ids": [
+        "E21"
+      ]
+    },
+    {
+      "id": "P058",
+      "year": "2021",
+      "title": "Highly Accurate Protein Structure Prediction with AlphaFold",
+      "authors": "Jumper et al.",
+      "track": "Graphs, audio & science",
+      "topic": "Scientific AI",
+      "tier": "Core",
+      "why": "Attention-based modeling predicts protein 3D structure.",
+      "url": "https://www.nature.com/articles/s41586-021-03819-2",
+      "exercise_ids": [
+        "E27"
+      ]
+    },
+    {
+      "id": "P059",
+      "year": "2021",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "authors": "Radford et al.",
+      "track": "Generative & multimodal",
+      "topic": "Image–text alignment",
+      "tier": "Core",
+      "why": "Contrastive image–text pretraining supports zero-shot classification.",
+      "url": "https://arxiv.org/abs/2103.00020",
+      "exercise_ids": [
+        "E20"
+      ]
+    },
+    {
+      "id": "P060",
+      "year": "2021",
+      "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+      "authors": "Hu et al.",
+      "track": "Language models & alignment",
+      "topic": "Efficient adaptation",
+      "tier": "Explore",
+      "why": "Train small low-rank updates while freezing model weights.",
+      "url": "https://arxiv.org/abs/2106.09685",
+      "exercise_ids": [
+        "E25"
+      ]
+    },
+    {
+      "id": "P061",
+      "year": "2021",
+      "title": "Masked Autoencoders Are Scalable Vision Learners",
+      "authors": "He et al.",
+      "track": "Computer vision",
+      "topic": "Self-supervised vision",
+      "tier": "Explore",
+      "why": "Reconstruct missing image patches to learn visual features.",
+      "url": "https://arxiv.org/abs/2111.06377",
+      "exercise_ids": [
+        "E19"
+      ]
+    },
+    {
+      "id": "P062",
+      "year": "2022",
+      "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+      "authors": "Wei et al.",
+      "track": "Language models & alignment",
+      "topic": "Prompting",
+      "tier": "Explore",
+      "why": "Intermediate reasoning examples can improve complex answers.",
+      "url": "https://arxiv.org/abs/2201.11903",
+      "exercise_ids": [
+        "E23"
+      ]
+    },
+    {
+      "id": "P063",
+      "year": "2022",
+      "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+      "authors": "Rombach et al.",
+      "track": "Generative & multimodal",
+      "topic": "Latent diffusion",
+      "tier": "Explore",
+      "why": "Denoising in latent space lowers image-generation cost.",
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html",
+      "exercise_ids": [
+        "E18"
+      ]
+    },
+    {
+      "id": "P064",
+      "year": "2022",
+      "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+      "authors": "Yao et al.",
+      "track": "Language models & alignment",
+      "topic": "Tool use",
+      "tier": "Explore",
+      "why": "Alternate reasoning with actions and observations.",
+      "url": "https://arxiv.org/abs/2210.03629",
+      "exercise_ids": [
+        "E23",
+        "E24"
+      ]
+    },
+    {
+      "id": "P065",
+      "year": "2022",
+      "title": "Training Compute-Optimal Large Language Models",
+      "authors": "Hoffmann et al.",
+      "track": "Language models & alignment",
+      "topic": "Scaling",
+      "tier": "Core",
+      "why": "More training tokens can outperform larger undertrained models.",
+      "url": "https://arxiv.org/abs/2203.15556",
+      "exercise_ids": [
+        "E21"
+      ]
+    },
+    {
+      "id": "P066",
+      "year": "2022",
+      "title": "Training Language Models to Follow Instructions with Human Feedback",
+      "authors": "Ouyang et al.",
+      "track": "Language models & alignment",
+      "topic": "Preference training",
+      "tier": "Core",
+      "why": "Supervision and human preferences align model responses.",
+      "url": "https://arxiv.org/abs/2203.02155",
+      "exercise_ids": [
+        "E22",
+        "E32"
+      ]
+    },
+    {
+      "id": "P067",
+      "year": "2023",
+      "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+      "authors": "Rafailov et al.",
+      "track": "Language models & alignment",
+      "topic": "Preference optimisation",
+      "tier": "Core",
+      "why": "Fit pairwise preferences through a direct policy objective.",
+      "url": "https://arxiv.org/abs/2305.18290",
+      "exercise_ids": [
+        "E22"
+      ]
+    },
+    {
+      "id": "P068",
+      "year": "2023",
+      "title": "LLaMA: Open and Efficient Foundation Language Models",
+      "authors": "Touvron et al.",
+      "track": "Language models & alignment",
+      "topic": "Open models",
+      "tier": "Explore",
+      "why": "Careful data and compute choices yield capable open weights.",
+      "url": "https://arxiv.org/abs/2302.13971",
+      "exercise_ids": []
+    },
+    {
+      "id": "P069",
+      "year": "2023",
+      "title": "Segment Anything",
+      "authors": "Kirillov et al.",
+      "track": "Computer vision",
+      "topic": "Foundation segmentation",
+      "tier": "Recent",
+      "why": "Promptable masks extend segmentation to varied objects.",
+      "url": "https://arxiv.org/abs/2304.02643",
+      "exercise_ids": [
+        "E08"
+      ]
+    },
+    {
+      "id": "P070",
+      "year": "2024",
+      "title": "Accurate Structure Prediction of Biomolecular Interactions with AlphaFold 3",
+      "authors": "Abramson et al.",
+      "track": "Graphs, audio & science",
+      "topic": "Scientific AI",
+      "tier": "Recent",
+      "why": "Predict interactions among proteins and other molecules.",
+      "url": "https://www.nature.com/articles/s41586-024-07487-w",
+      "exercise_ids": [
+        "E27"
+      ]
+    },
+    {
+      "id": "P071",
+      "year": "2024",
+      "title": "DeepSeek-V3 Technical Report",
+      "authors": "DeepSeek-AI",
+      "track": "Language models & alignment",
+      "topic": "Sparse large models",
+      "tier": "Recent",
+      "why": "A modern mixture-of-experts language model training report.",
+      "url": "https://arxiv.org/abs/2412.19437",
+      "exercise_ids": []
+    },
+    {
+      "id": "P072",
+      "year": "2024",
+      "title": "Emu3: Next-Token Prediction is All You Need",
+      "authors": "Wang et al.",
+      "track": "Generative & multimodal",
+      "topic": "Unified tokens",
+      "tier": "Recent",
+      "why": "One token-prediction interface spans text, images, and video.",
+      "url": "https://arxiv.org/abs/2409.18869",
+      "exercise_ids": []
+    },
+    {
+      "id": "P073",
+      "year": "2025",
+      "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+      "authors": "DeepSeek-AI",
+      "track": "Language models & alignment",
+      "topic": "Reasoning RL",
+      "tier": "Recent",
+      "why": "Post-training reinforcement learning targets verifiable reasoning.",
+      "url": "https://arxiv.org/abs/2501.12948",
+      "exercise_ids": [
+        "E23"
+      ]
+    },
+    {
+      "id": "P074",
+      "year": "2025",
+      "title": "Qwen3 Technical Report",
+      "authors": "Qwen Team",
+      "track": "Language models & alignment",
+      "topic": "Modern open models",
+      "tier": "Recent",
+      "why": "Describes a recent family and its training/reasoning modes.",
+      "url": "https://arxiv.org/abs/2505.09388",
+      "exercise_ids": []
+    },
+    {
+      "id": "P075",
+      "year": "2026",
+      "title": "Evaluating Large Language Models for Accuracy Incentivizes Hallucinations",
+      "authors": "OpenAI researchers et al.",
+      "track": "Language models & alignment",
+      "topic": "Evaluation",
+      "tier": "Recent",
+      "why": "Scoring rules affect whether a model guesses or abstains.",
+      "url": "https://www.nature.com/articles/s41586-026-10549-w",
+      "exercise_ids": [
+        "E23",
+        "E28"
+      ]
+    },
+    {
+      "id": "P076",
+      "year": "1992",
+      "title": "Simple statistical gradient-following algorithms for connectionist reinforcement learning",
+      "authors": "Williams",
+      "track": "Reinforcement learning",
+      "topic": "Policy gradients",
+      "tier": "Core",
+      "why": "REINFORCE connects sampled rewards to policy-gradient updates; read before PPO and RLHF.",
+      "url": "https://link.springer.com/article/10.1007/BF00992696",
+      "exercise_ids": [
+        "E32"
+      ]
+    },
+    {
+      "id": "P077",
+      "year": "2013",
+      "title": "Distributed Representations of Words and Phrases and their Compositionality",
+      "authors": "Mikolov, Sutskever, Chen, Corrado & Dean",
+      "track": "Language models & alignment",
+      "topic": "Word vectors and negative sampling",
+      "tier": "Core",
+      "why": "Extends Word2Vec with negative sampling, subsampling and phrase representations.",
+      "url": "https://arxiv.org/abs/1310.4546",
+      "exercise_ids": [
+        "E29"
+      ]
+    },
+    {
+      "id": "P078",
+      "year": "2014",
+      "title": "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+      "authors": "Srivastava, Hinton, Krizhevsky, Sutskever & Salakhutdinov",
+      "track": "Neural foundations",
+      "topic": "Regularization",
+      "tier": "Core",
+      "why": "Randomly dropping units during training gives a practical regularization baseline.",
+      "url": "https://jmlr.org/papers/v15/srivastava14a.html",
+      "exercise_ids": [
+        "E30"
+      ]
+    },
+    {
+      "id": "P079",
+      "year": "2014",
+      "title": "GloVe: Global Vectors for Word Representation",
+      "authors": "Pennington, Socher & Manning",
+      "track": "Language models & alignment",
+      "topic": "Co-occurrence embeddings",
+      "tier": "Explore",
+      "why": "A weighted log co-occurrence objective provides a contrasting route to static word vectors.",
+      "url": "https://aclanthology.org/D14-1162/",
+      "exercise_ids": [
+        "E29"
+      ]
+    },
+    {
+      "id": "P080",
+      "year": "2015",
+      "title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+      "authors": "Ioffe & Szegedy",
+      "track": "Neural foundations",
+      "topic": "Normalization",
+      "tier": "Core",
+      "why": "Batch statistics, learned scale/shift and running estimates change training and inference behavior.",
+      "url": "https://arxiv.org/abs/1502.03167",
+      "exercise_ids": [
+        "E31"
+      ]
+    },
+    {
+      "id": "P081",
+      "year": "2016",
+      "title": "Layer Normalization",
+      "authors": "Ba, Kiros & Hinton",
+      "track": "Neural foundations",
+      "topic": "Normalization",
+      "tier": "Core",
+      "why": "Per-example normalization clarifies a key component of recurrent models and Transformers.",
+      "url": "https://arxiv.org/abs/1607.06450",
+      "exercise_ids": [
+        "E31"
+      ]
+    },
+    {
+      "id": "P082",
+      "year": "2017",
+      "title": "Proximal Policy Optimization Algorithms",
+      "authors": "Schulman, Wolski, Dhariwal, Radford & Klimov",
+      "track": "Reinforcement learning",
+      "topic": "Clipped policy optimization",
+      "tier": "Core",
+      "why": "PPO limits some policy-update incentives through a clipped surrogate; it prepares you for InstructGPT.",
+      "url": "https://arxiv.org/abs/1707.06347",
+      "exercise_ids": [
+        "E32"
+      ]
+    },
+    {
+      "id": "P083",
+      "year": "2018",
+      "title": "Deep Contextualized Word Representations",
+      "authors": "Peters et al.",
+      "track": "Language models & alignment",
+      "topic": "ELMo and contextual embeddings",
+      "tier": "Core",
+      "why": "ELMo mixes layers of a bidirectional language model to represent a word in its context.",
+      "url": "https://aclanthology.org/N18-1202/",
+      "exercise_ids": [
+        "E33"
+      ]
+    },
+    {
+      "id": "P084",
+      "year": "2018",
+      "title": "Universal Language Model Fine-tuning for Text Classification",
+      "authors": "Howard & Ruder",
+      "track": "Language models & alignment",
+      "topic": "ULMFiT and transfer learning",
+      "tier": "Explore",
+      "why": "Recurrent language-model pretraining, gradual unfreezing and discriminative learning rates enable task transfer.",
+      "url": "https://aclanthology.org/P18-1031/",
+      "exercise_ids": [
+        "E34"
+      ]
+    },
+    {
+      "id": "P085",
+      "year": "2019",
+      "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+      "authors": "Liu et al.",
+      "track": "Language models & alignment",
+      "topic": "Pretraining recipe ablations",
+      "tier": "Explore",
+      "why": "Careful BERT training ablations expose the importance of data, masking and training budget.",
+      "url": "https://arxiv.org/abs/1907.11692",
+      "exercise_ids": [
+        "E35"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "E01",
+      "stage": "Neural foundations",
+      "title": "Logic gates and XOR",
+      "implementation": "Hand: truth tables, one perceptron weight update, and a 2D sketch showing why XOR has no linear separator.\nCode: implement step activation and the update rule in NumPy; train on AND and OR, plot the boundaries. Try XOR and record failure.",
+      "deliverables": "notes.md (worked update + XOR sketch); perceptron.py or .ipynb; predictions.csv; boundary.png.",
+      "paper_ids": [
+        "P001",
+        "P003"
+      ],
+      "effort": "1–2 h",
+      "stack": "NumPy, Matplotlib",
+      "path": "exercises/E01-perceptron"
+    },
+    {
+      "id": "E02",
+      "stage": "Neural foundations",
+      "title": "Backprop by hand",
+      "implementation": "Hand: for XOR input (0,1)→1, use two hidden units, tanh activations, sigmoid output and binary cross-entropy to compute forward pass, gradients and one SGD update.\nCode: train all four rows with manual NumPy backprop; repeat in PyTorch autograd and compare one gradient.",
+      "deliverables": "notes.md or photographed workings; xor_numpy.py; xor_torch.py; loss_curve.png; four final predictions.",
+      "paper_ids": [
+        "P010",
+        "P012",
+        "P030"
+      ],
+      "effort": "2–3 h",
+      "stack": "NumPy, PyTorch, Matplotlib",
+      "path": "exercises/E02-backpropagation"
+    },
+    {
+      "id": "E03",
+      "stage": "Computer vision",
+      "title": "Recognize handwritten digits",
+      "implementation": "Hand: calculate one 3×3 convolution output, output shapes, and CNN versus MLP parameter counts.\nCode: load MNIST with torchvision; train MLP and small LeNet-style nn.Module with DataLoader; evaluate held-out digits.",
+      "deliverables": "digit_models.py; results.csv; two confusion matrices; 12 error images; notes.md on weight sharing and errors.",
+      "paper_ids": [
+        "P013",
+        "P014",
+        "P018"
+      ],
+      "effort": "3–5 h",
+      "stack": "PyTorch, torchvision, scikit-learn, pandas",
+      "path": "exercises/E03-handwritten-digits"
+    },
+    {
+      "id": "E04",
+      "stage": "Classical ML",
+      "title": "Tabular model comparison",
+      "implementation": "Hand: calculate one decision-tree split's impurity reduction and sketch a 2D SVM margin.\nCode: use one fixed train/test split and scikit-learn Pipelines for tree, SVM, forest, boosting; add XGBoost if installed; tune on training data only.",
+      "deliverables": "tabular_benchmark.py; metrics.csv; comparison plot; notes.md explaining leakage control and two error cases.",
+      "paper_ids": [
+        "P009",
+        "P016",
+        "P020",
+        "P019",
+        "P042"
+      ],
+      "effort": "3–4 h",
+      "stack": "pandas, scikit-learn, XGBoost (optional)",
+      "path": "exercises/E04-tabular-models"
+    },
+    {
+      "id": "E05",
+      "stage": "Classical ML",
+      "title": "EM with hidden labels",
+      "implementation": "Hand: compute responsibilities and updated means for three points in a two-Gaussian mixture.\nCode: generate a toy dataset; implement E and M steps in NumPy; plot likelihood and parameters over iterations and vary initialization.",
+      "deliverables": "notes.md (one E/M iteration); em_numpy.py; trajectories.png; short initialization comparison.",
+      "paper_ids": [
+        "P006"
+      ],
+      "effort": "2–3 h",
+      "stack": "NumPy, Matplotlib",
+      "path": "exercises/E05-expectation-maximization"
+    },
+    {
+      "id": "E06",
+      "stage": "Computer vision",
+      "title": "Inspect the image benchmark",
+      "implementation": "Hand: write a one-page data card on labels, splits, and plausible leakage; use a small public image subset, not full ImageNet.\nCode: inspect class counts and image dimensions, hash for duplicates, and create a reproducible train/validation split.",
+      "deliverables": "data_card.md; audit.py; class_counts.csv; sample_grid.png; split manifest with random seed.",
+      "paper_ids": [
+        "P026"
+      ],
+      "effort": "1–2 h",
+      "stack": "pandas, Pillow, torchvision",
+      "path": "exercises/E06-image-benchmark"
+    },
+    {
+      "id": "E07",
+      "stage": "Computer vision",
+      "title": "Trace a CNN",
+      "implementation": "Hand: trace tensor shapes and receptive fields for a small CNN; calculate one residual block's skip addition.\nCode: implement a compact LeNet-style model in PyTorch and use hooks or a forward pass to check shapes; compare paper architectures in notes.",
+      "deliverables": "architecture_notes.md; cnn_shapes.py; layer_shapes.csv; one feature-map figure.",
+      "paper_ids": [
+        "P018",
+        "P027",
+        "P034",
+        "P035"
+      ],
+      "effort": "2–3 h",
+      "stack": "PyTorch, torchvision, Matplotlib",
+      "path": "exercises/E07-cnn-shapes"
+    },
+    {
+      "id": "E08",
+      "stage": "Computer vision",
+      "title": "Boxes versus masks",
+      "implementation": "Hand: calculate box IoU and mask IoU for one annotated example; explain semantic versus instance segmentation.\nCode: annotate five images; run pretrained torchvision Mask R-CNN (SAM optional); compare predicted boxes/masks to your annotations.",
+      "deliverables": "annotations/; detect_segment.py; five overlay images; iou.csv; notes.md comparing U-Net, Faster R-CNN, Mask R-CNN, SAM.",
+      "paper_ids": [
+        "P021",
+        "P036",
+        "P038",
+        "P044",
+        "P069"
+      ],
+      "effort": "2–3 h",
+      "stack": "torchvision, PyTorch, Pillow; SAM optional",
+      "path": "exercises/E08-boxes-and-masks"
+    },
+    {
+      "id": "E09",
+      "stage": "Search & probability",
+      "title": "A* search",
+      "implementation": "Hand: trace open/closed sets and f=g+h for four A* expansions; test an inadmissible heuristic.\nCode: write grid search with heapq, A* and uniform-cost modes; count expansions and verify optimal path costs.",
+      "deliverables": "astar.py; small grid fixtures; paths.png; expansions.csv; handwritten trace in notes.md.",
+      "paper_ids": [
+        "P005",
+        "P004"
+      ],
+      "effort": "2–3 h",
+      "stack": "Python stdlib (heapq), Matplotlib",
+      "path": "exercises/E09-astar-search"
+    },
+    {
+      "id": "E10",
+      "stage": "Search & probability",
+      "title": "Belief-network inference",
+      "implementation": "Hand: draw a three-node belief network and calculate one posterior by enumerating hidden states.\nCode: represent conditional-probability tables in NumPy and enumerate joint probabilities; compare computed posterior to your hand result.",
+      "deliverables": "belief_network.py; cpts.csv; notes.md with graph, posterior calculation, and normalization check.",
+      "paper_ids": [
+        "P008"
+      ],
+      "effort": "1–2 h",
+      "stack": "NumPy, pandas",
+      "path": "exercises/E10-belief-networks"
+    },
+    {
+      "id": "E11",
+      "stage": "Reinforcement learning",
+      "title": "Learn a gridworld policy",
+      "implementation": "Hand: calculate one TD error and one Q-learning target from a transition.\nCode: implement tabular Q-learning on deterministic FrozenLake; log episode rewards and learned Q table. Optional: small PyTorch DQN with replay/target net.",
+      "deliverables": "notes.md (worked updates); q_learning.py; rewards.png; policy_grid.txt; optional dqn.py.",
+      "paper_ids": [
+        "P011",
+        "P015",
+        "P037"
+      ],
+      "effort": "3–5 h",
+      "stack": "NumPy, Gymnasium; PyTorch optional",
+      "path": "exercises/E11-gridworld"
+    },
+    {
+      "id": "E12",
+      "stage": "Reinforcement learning",
+      "title": "Mini AlphaZero self-play",
+      "implementation": "Hand: draw a tic-tac-toe search tree, calculate PUCT/UCB terms for one node, and normalize visit counts.\nCode: implement rules, MCTS and self-play; use a tabular value/policy estimate first. Optional: replace it with a tiny PyTorch network.",
+      "deliverables": "notes.md (one search); tictactoe_mcts.py; visit_targets.csv; win_draw_curves.png; optional network.py.",
+      "paper_ids": [
+        "P039",
+        "P046",
+        "P045"
+      ],
+      "effort": "4–6 h",
+      "stack": "Python, NumPy; PyTorch optional",
+      "path": "exercises/E12-alphazero-self-play"
+    },
+    {
+      "id": "E13",
+      "stage": "Reinforcement learning",
+      "title": "Plan with learned dynamics",
+      "implementation": "Hand: compare one true grid transition with a model-predicted transition and sketch planning in latent state.\nCode: collect trajectories, fit a tiny transition predictor, plan using it, and compare resulting paths with known-rule planning.",
+      "deliverables": "notes.md (MuZero diagram and model errors); dynamics.py; transitions.csv; planning_comparison.png.",
+      "paper_ids": [
+        "P051",
+        "P045"
+      ],
+      "effort": "3–5 h",
+      "stack": "NumPy, PyTorch, Matplotlib",
+      "path": "exercises/E13-learned-dynamics"
+    },
+    {
+      "id": "E14",
+      "stage": "Language",
+      "title": "Inspect word vectors",
+      "implementation": "Hand: form skip-gram input–target pairs and work one dot-product score for two word vectors.\nCode: train a small embedding layer on a tiny corpus; extract nearest neighbors by cosine similarity and investigate a failure.",
+      "deliverables": "embedding.py; neighbors.csv; 2D projection.png; notes.md on distributional meaning and limitations.",
+      "paper_ids": [
+        "P022",
+        "P029"
+      ],
+      "effort": "2–3 h",
+      "stack": "PyTorch, NumPy, pandas",
+      "path": "exercises/E14-word-vectors"
+    },
+    {
+      "id": "E15",
+      "stage": "Sequence models",
+      "title": "Translation and alignment",
+      "implementation": "Hand: write encoder/decoder tensor shapes and calculate one attention-weighted context vector.\nCode: make a tiny sequence copy or word-translation task with nn.LSTM encoder/decoder and additive attention; save a token alignment heatmap.",
+      "deliverables": "seq2seq_attention.py; notes.md (worked context); alignment.png; five input/output examples.",
+      "paper_ids": [
+        "P017",
+        "P033",
+        "P032"
+      ],
+      "effort": "2–3 h",
+      "stack": "PyTorch, NumPy, Matplotlib",
+      "path": "exercises/E15-seq2seq-attention"
+    },
+    {
+      "id": "E16",
+      "stage": "Transformers",
+      "title": "Attention matrix by hand",
+      "implementation": "Hand: compute all 3×3 QKᵀ/√d scores, softmax weights, weighted values, and a causal mask for three tokens.\nCode: reproduce with NumPy, then check against PyTorch scaled_dot_product_attention; compare masked/unmasked outputs.",
+      "deliverables": "notes.md (full matrix); attention_check.py; weights.csv; masked_vs_unmasked.png.",
+      "paper_ids": [
+        "P043",
+        "P049",
+        "P048"
+      ],
+      "effort": "2–3 h",
+      "stack": "NumPy, PyTorch",
+      "path": "exercises/E16-attention-matrix"
+    },
+    {
+      "id": "E17",
+      "stage": "Language",
+      "title": "Compare pretraining objectives",
+      "implementation": "Hand: turn one short sentence into next-token, masked-token, and text-to-text training examples; list visible context for each.\nCode: write dataset builders; train tiny PyTorch next-token and masked-token baselines on the same toy corpus (T5 objective as examples only).",
+      "deliverables": "objectives.md; make_examples.py; examples.jsonl; train_small.py; loss_curves.png.",
+      "paper_ids": [
+        "P049",
+        "P048",
+        "P050"
+      ],
+      "effort": "2–4 h",
+      "stack": "PyTorch, Python; Hugging Face tokenizers optional",
+      "path": "exercises/E17-pretraining-objectives"
+    },
+    {
+      "id": "E18",
+      "stage": "Generative models",
+      "title": "Three ways to make points",
+      "implementation": "Hand: write the VAE reconstruction/KL terms, GAN min–max roles, and one diffusion denoising step.\nCode: use small PyTorch MLPs on a 2D two-moons mixture; train VAE, GAN, and diffusion toy models with identical data and seeds.",
+      "deliverables": "generative_notes.md; three training scripts/notebook sections; samples.png; training_curves.png; comparison table.",
+      "paper_ids": [
+        "P028",
+        "P031",
+        "P054",
+        "P063"
+      ],
+      "effort": "4–6 h",
+      "stack": "PyTorch, scikit-learn, Matplotlib",
+      "path": "exercises/E18-generative-models"
+    },
+    {
+      "id": "E19",
+      "stage": "Computer vision",
+      "title": "Learn without labels",
+      "implementation": "Hand: calculate a small contrastive loss with one positive and two negatives; sketch patch masking.\nCode: train a compact image encoder with two augmentations per image; freeze it and fit a linear probe. Compare to a random encoder; discuss MAE separately.",
+      "deliverables": "self_supervised_notes.md; augmentations.png; encoder.py; probe_results.csv; neighbor_grid.png.",
+      "paper_ids": [
+        "P052",
+        "P061",
+        "P053"
+      ],
+      "effort": "3–5 h",
+      "stack": "PyTorch, torchvision, scikit-learn",
+      "path": "exercises/E19-self-supervised-vision"
+    },
+    {
+      "id": "E20",
+      "stage": "Multimodal",
+      "title": "Images and text in one space",
+      "implementation": "Hand: compute cosine similarity for one image/text vector pair and explain zero-shot ranking.\nCode: run pretrained CLIP on a small labeled image folder and candidate captions; store score matrix and inspect two mistakes.",
+      "deliverables": "clip_retrieval.py; similarity.csv; ranked_examples.png; notes.md with failure analysis.",
+      "paper_ids": [
+        "P059",
+        "P053"
+      ],
+      "effort": "2–3 h",
+      "stack": "Hugging Face Transformers, PyTorch, Pillow",
+      "path": "exercises/E20-image-text-alignment"
+    },
+    {
+      "id": "E21",
+      "stage": "Scaling",
+      "title": "Compute budget trade-off",
+      "implementation": "Hand: calculate one log–log slope from three size/loss points and compare two equal-compute allocations.\nCode: build an illustrative or measured table; fit simple curves and plot model size, token count, compute versus loss. Label toy findings clearly.",
+      "deliverables": "scaling_notes.md (worked slope); scaling.py; measurements.csv; two plots; allocation comparison.",
+      "paper_ids": [
+        "P057",
+        "P055",
+        "P065"
+      ],
+      "effort": "2–3 h",
+      "stack": "pandas, NumPy, Matplotlib",
+      "path": "exercises/E21-scaling-laws"
+    },
+    {
+      "id": "E22",
+      "stage": "Alignment",
+      "title": "Preference pairs and DPO",
+      "implementation": "Hand: label five preference pairs; calculate one DPO log-sigmoid loss term from supplied policy/reference log-probabilities.\nCode: implement that loss in PyTorch tensors and vary the preference strength β; do not fine-tune a large LLM here.",
+      "deliverables": "preferences.csv; notes.md (worked loss); dpo_loss.py; beta_curve.png; reward-model versus DPO diagram.",
+      "paper_ids": [
+        "P066",
+        "P067"
+      ],
+      "effort": "2–3 h",
+      "stack": "PyTorch, pandas, Matplotlib",
+      "path": "exercises/E22-preference-optimization"
+    },
+    {
+      "id": "E23",
+      "stage": "Modern reasoning",
+      "title": "Verifier-backed reasoning",
+      "implementation": "Hand: define an exact arithmetic verifier and grade two candidate reasoning traces; note what answer-only grading misses.\nCode: generate 20 small tasks, run supplied or local-model responses through a Python verifier, compare prompt formats and record failure types.",
+      "deliverables": "tasks.jsonl; verifier.py; eval_results.csv; notes.md with examples and limits of this toy study.",
+      "paper_ids": [
+        "P062",
+        "P064",
+        "P073",
+        "P075"
+      ],
+      "effort": "2–4 h",
+      "stack": "Python, pandas; local LLM optional",
+      "path": "exercises/E23-reasoning-verifiers"
+    },
+    {
+      "id": "E24",
+      "stage": "Language",
+      "title": "Retrieve before answering",
+      "implementation": "Hand: mark which passage supports an answer and identify one unsupported claim.\nCode: index 10 short docs with TF-IDF, retrieve top-k, write cited answers from retrieved text; optional embedding retriever. No paid model API needed.",
+      "deliverables": "docs/; retrieval.py; answers.jsonl with citations; retrieval_metrics.csv; failure_notes.md.",
+      "paper_ids": [
+        "P056",
+        "P064"
+      ],
+      "effort": "2–3 h",
+      "stack": "scikit-learn, pandas; sentence-transformers optional",
+      "path": "exercises/E24-retrieval"
+    },
+    {
+      "id": "E25",
+      "stage": "Adaptation",
+      "title": "Low-rank update",
+      "implementation": "Hand: for W∈R^(d×k), derive full d·k parameters versus rank-r update r(d+k).\nCode: freeze a PyTorch nn.Linear weight, train two low-rank factors, then compare with full fine-tuning on a small classification task.",
+      "deliverables": "lora_notes.md; lora_layer.py; parameter_counts.csv; adaptation_curves.png.",
+      "paper_ids": [
+        "P060"
+      ],
+      "effort": "2–3 h",
+      "stack": "PyTorch, pandas, Matplotlib",
+      "path": "exercises/E25-low-rank-adaptation"
+    },
+    {
+      "id": "E26",
+      "stage": "Other modalities",
+      "title": "Graph or audio branch",
+      "implementation": "Hand: choose one branch: calculate one normalized neighbor aggregation (graph) or a dilated causal receptive field (audio).\nCode: graph—GCNConv on Karate Club; audio—small causal Conv1d predictor. State which branch you chose.",
+      "deliverables": "notes.md; graph_gcn.py + node_plot.png OR audio_causal.py + waveform_plot.png; short results.csv.",
+      "paper_ids": [
+        "P040",
+        "P041"
+      ],
+      "effort": "2–4 h",
+      "stack": "PyTorch Geometric (graph) or PyTorch (audio)",
+      "path": "exercises/E26-graph-or-audio"
+    },
+    {
+      "id": "E27",
+      "stage": "Scientific AI",
+      "title": "Read protein-model outputs",
+      "implementation": "Hand: annotate a structure figure with sequence inputs, predicted coordinates, confidence, and AF2 versus AF3 scope.\nCode: download a public PDB/mmCIF example; parse residues/coordinates and plot a simple distance map. No AlphaFold retraining.",
+      "deliverables": "structure_notes.md; parse_structure.py; distance_map.png; source accession and validation caveats.",
+      "paper_ids": [
+        "P058",
+        "P070"
+      ],
+      "effort": "1–2 h",
+      "stack": "Biopython, NumPy, Matplotlib",
+      "path": "exercises/E27-protein-structures"
+    },
+    {
+      "id": "E28",
+      "stage": "AI evaluation",
+      "title": "When to abstain",
+      "implementation": "Hand: score four correct/wrong/abstain examples under two explicit rules and predict how incentives change.\nCode: create 20 answerable/unanswerable items; compute accuracy, coverage, and error rate at several confidence thresholds.",
+      "deliverables": "scoring_notes.md; questions.csv; evaluate_abstention.py; accuracy_coverage.png; results.csv.",
+      "paper_ids": [
+        "P075"
+      ],
+      "effort": "1–2 h",
+      "stack": "pandas, NumPy, Matplotlib",
+      "path": "exercises/E28-abstention"
+    },
+    {
+      "id": "E29",
+      "path": "exercises/E29-negative-sampling-and-glove",
+      "stage": "Language",
+      "title": "Negative sampling versus co-occurrence",
+      "implementation": "Prerequisites: E14.\nHand: calculate one positive/negative skip-gram loss and one weighted GloVe residual from a tiny co-occurrence table; distinguish the two objectives.\nCode: build a small corpus and co-occurrence counts; train tiny skip-gram with negative sampling and GloVe objectives using NumPy or PyTorch. Inspect nearest neighbors within each model and record vocabulary, window, seeds and data limits; do not compare coordinates across independently trained spaces.",
+      "deliverables": "notes.md; corpus.txt; word_objectives.py; neighbors.csv; loss_curves.png; model/data settings.",
+      "paper_ids": [
+        "P029",
+        "P077",
+        "P079"
+      ],
+      "effort": "3–5 h",
+      "stack": "NumPy or PyTorch, pandas, Matplotlib",
+      "prerequisite_exercise_ids": [
+        "E14"
+      ]
+    },
+    {
+      "id": "E30",
+      "path": "exercises/E30-dropout",
+      "stage": "Neural foundations",
+      "title": "Dropout and overfitting",
+      "implementation": "Prerequisites: E02.\nHand: apply an inverted-dropout mask to a small activation vector and show why dividing retained activations by the keep probability preserves the expectation; state train/eval behavior.\nCode: implement inverted dropout and compare it with PyTorch on fixed masks. Train a small MLP with and without dropout on the same fixed train/validation split, keeping model and budget constant; report multiple seeds and a case where dropout may not help.",
+      "deliverables": "notes.md; dropout.py; train_mlp.py; metrics.csv; train_validation_curves.png; seed and split settings.",
+      "paper_ids": [
+        "P010",
+        "P078"
+      ],
+      "effort": "2–4 h",
+      "stack": "NumPy, PyTorch, scikit-learn, Matplotlib",
+      "prerequisite_exercise_ids": [
+        "E02"
+      ]
+    },
+    {
+      "id": "E31",
+      "path": "exercises/E31-batch-and-layer-normalization",
+      "stage": "Neural foundations",
+      "title": "Batch versus layer normalization",
+      "implementation": "Prerequisites: E02.\nHand: for a small batch-by-feature matrix, mark the axes and calculate BatchNorm and LayerNorm means, variances and affine outputs; use biased variance for the normalization calculation.\nCode: implement both normalizations in NumPy and compare with PyTorch BatchNorm1d and LayerNorm. Show BatchNorm train/eval and running-statistic behavior, including its running-variance convention; vary the other examples in a batch and test which outputs change. Keep epsilon, affine parameters and axes explicit.",
+      "deliverables": "notes.md; normalization.py; normalization_checks.csv; batch_composition.csv; train_eval_comparison.md.",
+      "paper_ids": [
+        "P080",
+        "P081",
+        "P035",
+        "P043"
+      ],
+      "effort": "2–4 h",
+      "stack": "NumPy, PyTorch, pandas",
+      "prerequisite_exercise_ids": [
+        "E02"
+      ]
+    },
+    {
+      "id": "E32",
+      "path": "exercises/E32-reinforce-and-ppo",
+      "stage": "Reinforcement learning",
+      "title": "From REINFORCE to PPO",
+      "implementation": "Prerequisites: E11.\nHand: calculate a REINFORCE update for a categorical policy with an action-independent baseline; evaluate the PPO clipped surrogate for positive and negative advantages and several probability ratios.\nCode: train REINFORCE on a tiny bandit, then implement and test PPO clipped loss on a fixed batch of actions, advantages and detached old log-probabilities. Plot clipping behavior and record sample/seed variability. A full on-policy PPO environment run is optional; this toy exercise does not reproduce RLHF.",
+      "deliverables": "notes.md; reinforce_bandit.py; ppo_loss.py; bandit_rewards.csv; ppo_clipping.png; tests for both advantage signs.",
+      "paper_ids": [
+        "P076",
+        "P082",
+        "P066"
+      ],
+      "effort": "3–5 h",
+      "stack": "PyTorch, NumPy, Matplotlib",
+      "prerequisite_exercise_ids": [
+        "E11"
+      ]
+    },
+    {
+      "id": "E33",
+      "path": "exercises/E33-contextual-embeddings",
+      "stage": "Language",
+      "title": "Word2Vec, ELMo and BERT in context",
+      "implementation": "Prerequisites: E14, E15, E16, E17.\nHand: choose sentences using bank in financial and river contexts; explain why a static lookup is unchanged and calculate a learned softmax-weighted mixture of three toy ELMo layers, including the scale parameter.\nCode: extract genuine pretrained Word2Vec, ELMo and BERT token vectors for the same marked word in at least four sentences (or use a documented cached export of those vectors). Compute cosine similarities separately within each model; record exact model/checkpoint, source, layer/mix, token alignment and subword pooling. Plot within-model same-sense versus different-sense comparisons. Never compare raw vectors across models. An optional small bidirectional LSTM is an ELMo-inspired demonstration, not a substitute for the three-model comparison or a full ELMo reproduction.",
+      "deliverables": "notes.md; sentences.jsonl; compare_context.py; vectors.npz or reproducible extraction instructions; provenance.json; within_model_similarities.csv; context_comparison.png.",
+      "paper_ids": [
+        "P029",
+        "P017",
+        "P083",
+        "P048"
+      ],
+      "effort": "3–5 h",
+      "stack": "Python, NumPy, Matplotlib; Transformers for BERT; original ELMo/Word2Vec tools or documented cached vectors in separate environments",
+      "prerequisite_exercise_ids": [
+        "E14",
+        "E15",
+        "E16",
+        "E17"
+      ]
+    },
+    {
+      "id": "E34",
+      "path": "exercises/E34-ulmfit-transfer",
+      "stage": "Adaptation",
+      "title": "Recurrent language-model transfer",
+      "implementation": "Prerequisites: E15, E17.\nHand: sketch language-model pretraining, target-domain adaptation and classifier fine-tuning; assign discriminative learning rates and a gradual-unfreezing schedule for a small recurrent classifier.\nCode: pretrain a tiny LSTM next-token model on a small corpus, adapt it to unlabeled training-domain text, then compare a frozen encoder, gradual unfreezing and a classifier trained from scratch on fixed labeled splits. Keep validation/test text out of language-model fitting and report multiple seeds, data sizes and learning rates. Label this ULMFiT-inspired; it does not reproduce the full AWD-LSTM recipe.",
+      "deliverables": "notes.md; train_language_model.py; finetune_classifier.py; splits.json; transfer_metrics.csv; learning_curves.png.",
+      "paper_ids": [
+        "P017",
+        "P084"
+      ],
+      "effort": "4–6 h",
+      "stack": "PyTorch, pandas, Matplotlib",
+      "prerequisite_exercise_ids": [
+        "E15",
+        "E17"
+      ]
+    },
+    {
+      "id": "E35",
+      "path": "exercises/E35-roberta-ablations",
+      "stage": "Language",
+      "title": "BERT and RoBERTa training ablations",
+      "implementation": "Prerequisites: E16, E17.\nHand: construct fixed and dynamically resampled masked-token examples; design a one-factor-at-a-time ablation table, including how to hold training tokens, updates and evaluation masks constant.\nCode: extend the tiny masked LM from E17; compare fixed versus dynamic masks using the same architecture, corpus, optimizer, token budget and held-out evaluation. Use the same held-out mask set and several seeds; keep other recipe changes separate. Record the no-next-sentence-prediction choice. Label results as RoBERTa-inspired toy ablations, not a reproduction.",
+      "deliverables": "notes.md; mask_examples.py; train_ablation.py; ablation_config.json; metrics.csv; heldout_loss.png.",
+      "paper_ids": [
+        "P048",
+        "P085"
+      ],
+      "effort": "3–5 h",
+      "stack": "PyTorch, pandas, Matplotlib; tokenizer optional",
+      "prerequisite_exercise_ids": [
+        "E16",
+        "E17"
+      ]
+    }
+  ],
+  "broad_sequence": [
+    "P001",
+    "P003",
+    "P010",
+    "P013",
+    "P014",
+    "P018",
+    "P009",
+    "P015",
+    "P017",
+    "P026",
+    "P027",
+    "P078",
+    "P029",
+    "P077",
+    "P079",
+    "P033",
+    "P032",
+    "P031",
+    "P037",
+    "P080",
+    "P035",
+    "P046",
+    "P045",
+    "P081",
+    "P043",
+    "P083",
+    "P084",
+    "P049",
+    "P048",
+    "P085",
+    "P057",
+    "P055",
+    "P053",
+    "P059",
+    "P058",
+    "P065",
+    "P076",
+    "P082",
+    "P066",
+    "P067",
+    "P069",
+    "P073"
+  ],
+  "tracks": [
+    {
+      "track": "Neural foundations",
+      "paper_ids": [
+        "P001",
+        "P003",
+        "P010",
+        "P012",
+        "P030",
+        "P078",
+        "P080",
+        "P081"
+      ],
+      "exercise_ids": [
+        "E01",
+        "E02",
+        "E30",
+        "E31"
+      ],
+      "teaches": "Move from neurons and gradients to optimization, regularization and normalization."
+    },
+    {
+      "track": "Classical ML & search",
+      "paper_ids": [
+        "P002",
+        "P005",
+        "P006",
+        "P009",
+        "P016",
+        "P020",
+        "P019",
+        "P042"
+      ],
+      "exercise_ids": [
+        "E04",
+        "E05",
+        "E09",
+        "E10"
+      ],
+      "teaches": "Use baselines, search, and probabilistic reasoning."
+    },
+    {
+      "track": "Computer vision",
+      "paper_ids": [
+        "P007",
+        "P013",
+        "P014",
+        "P018",
+        "P026",
+        "P027",
+        "P078",
+        "P080",
+        "P034",
+        "P035",
+        "P053",
+        "P069"
+      ],
+      "exercise_ids": [
+        "E03",
+        "E06",
+        "E07",
+        "E30",
+        "E31",
+        "E08",
+        "E19"
+      ],
+      "teaches": "Follow handwriting, image benchmarks, CNN training, residual networks and masks."
+    },
+    {
+      "track": "Reinforcement learning",
+      "paper_ids": [
+        "P011",
+        "P015",
+        "P076",
+        "P037",
+        "P039",
+        "P046",
+        "P045",
+        "P051",
+        "P082",
+        "P066"
+      ],
+      "exercise_ids": [
+        "E11",
+        "E32",
+        "E12",
+        "E13",
+        "E22"
+      ],
+      "teaches": "Connect value learning, policy gradients, planning and PPO to RLHF."
+    },
+    {
+      "track": "Sequence & attention",
+      "paper_ids": [
+        "P017",
+        "P033",
+        "P032",
+        "P081",
+        "P043",
+        "P083"
+      ],
+      "exercise_ids": [
+        "E15",
+        "E31",
+        "E16",
+        "E33"
+      ],
+      "teaches": "Study recurrence, alignment, layer normalization, attention and contextual representations."
+    },
+    {
+      "track": "Language models & alignment",
+      "paper_ids": [
+        "P022",
+        "P029",
+        "P077",
+        "P079",
+        "P017",
+        "P083",
+        "P084",
+        "P081",
+        "P043",
+        "P049",
+        "P048",
+        "P085",
+        "P057",
+        "P055",
+        "P065",
+        "P076",
+        "P082",
+        "P066",
+        "P067",
+        "P073"
+      ],
+      "exercise_ids": [
+        "E14",
+        "E29",
+        "E15",
+        "E31",
+        "E16",
+        "E17",
+        "E33",
+        "E34",
+        "E35",
+        "E21",
+        "E32",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E28"
+      ],
+      "teaches": "Compare static and contextual vectors, recurrent and Transformer transfer, scaling and alignment; read prerequisites before linked exercises."
+    },
+    {
+      "track": "Generative & multimodal",
+      "paper_ids": [
+        "P028",
+        "P031",
+        "P054",
+        "P063",
+        "P059",
+        "P072"
+      ],
+      "exercise_ids": [
+        "E18",
+        "E20"
+      ],
+      "teaches": "Compare generation procedures and image–text alignment."
+    },
+    {
+      "track": "Graphs, audio & science",
+      "paper_ids": [
+        "P040",
+        "P041",
+        "P058",
+        "P070"
+      ],
+      "exercise_ids": [
+        "E26",
+        "E27"
+      ],
+      "teaches": "Explore non-text structures and scientific prediction."
+    }
+  ],
+  "placements": [
+    {
+      "paper_ids": [
+        "P029",
+        "P077",
+        "P079"
+      ],
+      "placement": "After AlexNet; before sequence-to-sequence models.",
+      "reason": "Read the original Word2Vec paper, its negative-sampling follow-up, then GloVe before contextual embeddings."
+    },
+    {
+      "paper_ids": [
+        "P078"
+      ],
+      "placement": "After AlexNet; revisit after backpropagation.",
+      "reason": "Establish dropout as a practical neural-network regularization technique."
+    },
+    {
+      "paper_ids": [
+        "P080"
+      ],
+      "placement": "Before ResNet.",
+      "reason": "Understand batch normalization before modern CNN training recipes."
+    },
+    {
+      "paper_ids": [
+        "P081"
+      ],
+      "placement": "Immediately before Attention Is All You Need.",
+      "reason": "Layer normalization is a component of the original Transformer."
+    },
+    {
+      "paper_ids": [
+        "P083",
+        "P084"
+      ],
+      "placement": "After recurrence/attention foundations; before GPT and BERT.",
+      "reason": "ELMo and ULMFiT show contextual features and recurrent-model transfer; ELMo does not require Transformer architecture."
+    },
+    {
+      "paper_ids": [
+        "P085"
+      ],
+      "placement": "Immediately after BERT.",
+      "reason": "Use RoBERTa to examine which gains come from the pretraining recipe."
+    },
+    {
+      "paper_ids": [
+        "P076",
+        "P082"
+      ],
+      "placement": "Before InstructGPT in the broad path; after Q-learning foundations in the RL path.",
+      "reason": "Read REINFORCE before PPO, then connect policy optimization to RLHF."
+    }
+  ],
+  "order_note": "The broad sequence groups learning dependencies and topics, rather than sorting every paper by publication date. IDs stay fixed; follow the displayed order. Read all papers and prerequisites linked to an exercise before attempting it. Attention Is All You Need introduces the Transformer architecture used by BERT; ELMo uses bidirectional LSTMs."
+}

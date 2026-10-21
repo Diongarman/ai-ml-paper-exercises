@@ -1,12 +1,13 @@
+<!-- BEGIN GENERATED CURRICULUM -->
 # E16 — Attention matrix by hand
 
-[Exercise row in the spreadsheet](https://docs.google.com/spreadsheets/d/1_eHEWFzFJ7ncNSaKj2OCUYB6H8rWtdbSnBG4BsRaE2I/edit#gid=1325933506&range=A17:K17) · [Repository guide](../../README.md)
+[Exercise row in the spreadsheet](https://docs.google.com/spreadsheets/d/1_eHEWFzFJ7ncNSaKj2OCUYB6H8rWtdbSnBG4BsRaE2I/edit#gid=1325933506&range=A17:K17) · [Repository guide](../../README.md) · [Reading order](../../ROADMAP.md)
 
 **Stage:** Transformers  
 **Suggested effort:** 2–3 h  
 **Suggested stack:** NumPy, PyTorch
 
-This is an unsolved starter workspace. The brief below was copied from the roadmap on 20 October 2026; use the linked spreadsheet for any later revisions and progress status.
+This is an unsolved starter workspace. Its curriculum brief matches roadmap.json and the spreadsheet; keep your progress status in the spreadsheet. Curriculum version: 2026-10-21.
 
 ## Related papers
 
@@ -27,6 +28,7 @@ reproduce with NumPy, then check against PyTorch scaled_dot_product_attention; c
 notes.md (full matrix); attention_check.py; weights.csv; masked_vs_unmasked.png.
 
 Use [notes.md](notes.md) for explanations and worked mathematics. Save small results in results/ and plots in figures/, or keep the brief's filenames beside your script. Link to handwritten workings if you prefer writing them elsewhere.
+<!-- END GENERATED CURRICULUM -->
 
 ## How to run
 
